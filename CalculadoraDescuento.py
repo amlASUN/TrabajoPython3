@@ -3,8 +3,8 @@
 # Autores: Aitor y Jaime
 # Fecha: 01/10/2026 
 
-Descuento1 = 0.10 # Valor de descuento 10%
-Descuento2 = 0.15 # Valor de descuento 15%
+Descuento1 = 0.10 # Valor de descuento 10% (constante)
+Descuento2 = 0.15 # Valor de descuento 15% (constante)
 Precio = float(input("Introduce el precio del producto a calcular:")) # Float para poder usar números con comas e integrar al programa el dato.
 if Precio >= 300: # Descuento de 15% aplicado
     PrecioTotal = Precio - (Precio*Descuento2)
